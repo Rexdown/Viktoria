@@ -1,0 +1,140 @@
+.aboutUs {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 345px;
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+        &-title {
+            font-weight: 600;
+            font-size: 36px;
+            color: #D1293C;
+            margin-bottom: 20px;
+        }
+        &-text {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        &-postscriptum {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 21px;
+            color: #333333;
+        }
+    }
+
+    &__slider {
+        width: 40%;
+
+        &-img {
+            width: 495px;
+            height: 355px;
+        }
+    }
+}
+
+.aboutSlide {
+    padding-bottom: 100px;
+
+    &-counter {
+        position: absolute;
+        right: 18%;
+        bottom: 15%;
+        font-weight: 400;
+        font-size: 18px;
+        color: #D1293C;
+    }
+}
+
+.aboutSlide > .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 3%;
+    left: auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #D1293C;
+    background: #FFFFFF;
+}
+
+.aboutSlide > .swiper-button-prev.swiper-button-disabled {
+    opacity: 1;
+    cursor: auto;
+    pointer-events: none;
+
+    left: 60%;
+    right: auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #D1293C;
+    background: #FFFFFF;
+
+    background-image: url(../../assets/icons/arrow-red.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    transform: rotate(0deg);
+}
+
+.aboutSlide > .swiper-button-next.swiper-button-disabled {
+    opacity: 1;
+    cursor: auto;
+    pointer-events: none;
+
+    left: auto;
+    right: 3%;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #D1293C;
+    background: #FFFFFF;
+
+    background-image: url(../../assets/icons/arrow-red.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    transform: rotate(180deg);
+}
+
+.aboutSlide > .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 60%;
+    right: auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #D1293C;
+    background: #D1293C;
+
+    background-image: url(../../assets/icons/arrow-white.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    transform: rotate(180deg);
+}
+
+.aboutSlide > .swiper-button-next {
+    background: #D1293C;
+    background-image: url(../../assets/icons/arrow-white.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+}
+
+.aboutSlide > .swiper-button-next, .aboutSlide > .swiper-button-prev {
+    top: 83%;
+}
+
+.aboutSlide > .swiper-button-next:after {
+    content: "";
+}
+
+.aboutSlide > .swiper-button-prev:after {
+    content: "";
+}
+

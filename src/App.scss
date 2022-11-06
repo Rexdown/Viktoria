@@ -1,0 +1,111 @@
+.App {
+    position: relative;
+    overflow-x: hidden; 
+
+    &-leafOne {
+        position: absolute;
+        width: 180px;
+        height: 245px;
+        left: 0px;
+        top: 439px;
+    }
+    &-leafTwo {
+        position: absolute;
+        width: 175px;
+        height: 240px;
+        left: 80px;
+        top: 530px;
+    }
+    &-leafThree {
+        position: absolute;
+        width: 350px;
+        height: 400px;
+        right: -110px;
+        top: 830px;
+        transform: rotate(25deg);
+    }
+    &-leafFour {
+        position: absolute;
+        width: 163px;
+        height: 220px;
+        left: 750px;
+        top: 1285px;
+    }
+    &-leafFive {
+        position: absolute;
+        width: 331px;
+        height: 420px;
+        left: -50px;
+        top: 1556px;
+    }
+    &-leafSix {
+        position: absolute;
+        width: 220px;
+        height: 181px;
+        left: 60px;
+        top: 1915px;
+    }
+    &-leafSeven {
+        position: absolute;
+        width: 161px;
+        height: 366px;
+        right: 110px;
+        top: 2045px;
+    }
+    &-leafEight {
+        position: absolute;
+        width: 191px;
+        height: 366px;
+        right: 15px;
+        top: 2090px;
+    }
+    &-leafNine {
+        position: absolute;
+        width: 208px;
+        height: 197px;
+        left: 15px;
+        top: 2655px;
+    }
+    &-leafTen {
+        position: absolute;
+        width: 379px;
+        height: 461px;
+        right: -80px;
+        top: 2850px;
+    }
+    &-leafEleven {
+        position: absolute;
+        width: 170px;
+        height: 170px;
+        right: 35px;
+        top: 3175px;
+    }
+    &-leafTwelve {
+        position: absolute;
+        width: 310px;
+        height: 293px;
+        left: 0;
+        top: 3280px;
+    }
+    &-leafThirteen {
+        position: absolute;
+        width: 187px;
+        height: 200px;
+        left: 0;
+        top: 4800px;
+    }
+    &-leafFourteen {
+        position: absolute;
+        width: 187px;
+        height: 220px;
+        right: -15px;
+        top: 4550px;
+    }
+    &-leafFifteen {
+        position: absolute;
+        width: 250px;
+        height: 290px;
+        right: 0;
+        top: 5270px;
+    }
+}

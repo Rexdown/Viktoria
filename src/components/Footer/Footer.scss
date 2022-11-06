@@ -1,0 +1,134 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+
+    height: 210px;
+    padding: 30px 345px;
+    background: #333333;
+
+    &__left {
+        width: 33.3%;
+
+        &__nav {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+
+            &-item {
+                width: 50%;
+                font-size: 16px;
+                font-weight: 300;
+                color: #888888;
+                transition: 0.22s;
+                margin-bottom: 5px;
+                cursor: pointer;
+
+                &:hover {
+                    color: #fff;
+                    transition: 0.22s;
+                }
+            }
+        }
+        &-info {
+            font-size: 16px;
+            font-weight: 300;
+            color: #888888;
+            margin-bottom: 5px;
+        }
+    }
+
+    &__midle {
+        width: 33.3%;
+
+        &__contacts {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+
+            &__item {
+                display: flex;
+                flex-direction: column;
+
+                &-name {
+                    margin: 0 auto;
+                    font-weight: 500;
+                    font-size: 16px;
+                    color: #FFFFFF;
+                    margin-bottom: 5px;
+                }
+                &-adress {
+                    margin: 0 auto;
+                    font-weight: 300;
+                    font-size: 16px;
+                    color: #888888;
+                }
+            }
+        }
+    }
+
+    &__right {
+        width: 33.3%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &__politics {
+            display: flex;
+            flex-direction: column;
+
+            &-item {
+                font-weight: 300;
+                font-size: 16px;
+                color: #888888;
+                margin-left: auto;
+                margin-bottom: 5px;
+                transition: 0.22s;
+                cursor: pointer;
+
+                &:hover {
+                    color: #ffffff;
+                    transition: 0.22s;
+                }
+            }
+        }
+
+        &__social {
+            width: 45%;
+            display: flex;
+            justify-content: space-between;
+            margin-left: auto;
+
+            &-item {
+                width: 35px;
+                height: 35px;
+                opacity: 0.4;
+                cursor: pointer;
+                transition: 0.33s;
+
+                &:hover {
+                    opacity: 1;
+                    transition: 0.33s;
+                }
+            }
+        }
+
+        &__developer {
+            display: flex;
+
+            &-text {
+                font-weight: 300;
+                font-size: 16px;
+                color: #888888;
+                margin-left: 145px;
+            }
+            &-name {
+                font-weight: 400;
+                font-size: 16px;
+                color: #fff;
+                margin-left: auto;
+            }
+        }
+    }
+}
